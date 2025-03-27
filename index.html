@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Calcular</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <header>
@@ -11,14 +12,16 @@
     </header>
     <main>
         <p>Insira as informações:</p>
-        <div>
+        <div class="calculo">
             a:
             <input type="number" id="a">
             b:
             <input type="number" id="b">
             c:
             <input type="number" id="c">
-            <button onclick="calcular()">Calcular</button>
+            <div class="btn">
+                <button onclick="calcular()">Calcular</button>
+            </div>
         </div>
     </main>
     <script src="script.js"></script>
