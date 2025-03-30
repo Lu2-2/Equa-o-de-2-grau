@@ -5,7 +5,7 @@ function calcular(){
 
     // Aviso caso não tenha nada
     if(a, b, c == ""){
-        alert('Não deixa as caixas vazias');
+        alert('Não deixe as caixas vazias');
         return
     }
 

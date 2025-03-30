@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Parkinsans:wght@300..800&family=Sigmar&family=Sour+Gummy:ital,wght@0,100..900;1,100..900&display=swap');
+
 body{
     display: flex;
     flex-direction: column;
@@ -6,6 +8,13 @@ body{
     margin: 0px;
     color: white;
     background-color: black;
+    font-family: "Parkinsans", sans-serif;
+}
+
+header h1{
+    background-color: rgb(12, 12, 12);
+    height: 50px;
+    border-radius: 10px;
 }
 
 .calculo .btn{
@@ -14,6 +23,18 @@ body{
     flex-direction: column;
     justify-content: center;
     align-items: center;
+}
+
+main{
+    background-color: rgb(12, 12, 12);
+    width: 40vw;
+    height: 30vh;
+    border-radius: 10px;
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
 }
 
 main .calculo input{
@@ -27,15 +48,20 @@ main .calculo input{
     text-align: center;
 }
 
-button{
+.btn button{
     width: 100px;
     height: 25px;
     font-weight: 800;
     border: none;
     border-radius: 5px;
     color: white;
-    background-color: gray;
+    background-color: rgb(40, 40, 40);
     cursor: pointer;
+}
+
+.btn button:hover{
+    background-color: rgb(50, 50, 50);
+    transition: ease-in 0.2s;
 }
 
 input[type=number]::-webkit-inner-spin-button{
