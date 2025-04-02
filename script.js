@@ -1,7 +1,7 @@
 function calcular(){
-    var a = document.getElementById('a').value;
-    var b = document.getElementById('b').value;
-    var c = document.getElementById('c').value;
+    const a = document.getElementById('a').value;
+    const b = document.getElementById('b').value;
+    const c = document.getElementById('c').value;
 
     // Aviso caso não tenha nada
     if(a, b, c == ""){
